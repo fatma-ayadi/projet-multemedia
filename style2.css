@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d8d5d5;
+    padding: 20px;
+}
+
+.best-seller-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.best-seller-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+.buy-link {
+    text-decoration: none;
+    background-color: #923a92;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.buy-link:hover {
+    background-color: #431749;
+}
+.promotion-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.promotion-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.promotion-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.promotion-image-container {
+    position: relative;
+}
+.promotion-image {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.promotion-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 0, 0, 0.8); 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.promotion-details {
+    text-align: left;
+}
+
+.promotion-link {
+    text-decoration: none;
+    color: #492053;
+    font-weight: bold;
+}
+
+.promotion-link:hover {
+    color: #35152d;
+}
